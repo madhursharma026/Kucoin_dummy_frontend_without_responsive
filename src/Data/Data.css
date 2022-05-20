@@ -1,17 +1,16 @@
 .left_side_table_left_top{
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 200px;
+    height: 205px;
 }
 .left_side_table_left_bottom{
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 200px;
+    height: 205px;
 }
 .right_side_table{
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 468px;
+    overflow: hidden;
+    height: 480px;
 }
 .left_side_data{
     overflow-y: scroll;

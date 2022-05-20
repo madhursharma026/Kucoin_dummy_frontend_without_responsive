@@ -80,7 +80,7 @@ export default function RightSideSwipableTabs() {
                 axis={theme.direction === "rtl" ? "x-reverse" : "x"}
                 index={value}
                 onChangeIndex={handleChangeIndex}
-                style={{ background: '#151C30', height: "500px" }}
+                style={{ background: '#151C30', height: "auto" }}
             >
                 <TabPanel value={value} index={0} dir={theme.direction}>
                     <div className="row" style={{ marginTop: '-12px' }}>
@@ -128,7 +128,7 @@ export default function RightSideSwipableTabs() {
                                 <div className="col-6" style={{ fontSize: "10px", color: "white" }}>Advanced: -</div>
                                 <div className="col-6" style={{ textAlign: "right", color: "white", fontSize: "10px" }}>Settings</div>
                             </div>
-                            <button type="button" class="btn btn-outline-info w-100 mt-1" style={{ fontSize: "12px" }}>Log In or Sign Up</button>
+                            <button type="button" class="btn btn-outline-info w-100 mt-2" style={{ fontSize: "12px" }}>Log In or Sign Up</button>
                         </div>
                         <div className="col-6">
                             {/* <input type="text" placeholder="Limit" className="w-100 px-3" style={{background:"#272E40", border:'0', color:'white', height:"30px", borderRadius:'5px'}} /> */}
@@ -174,7 +174,7 @@ export default function RightSideSwipableTabs() {
                                 <div className="col-6" style={{ fontSize: "10px", color: "white" }}>Advanced: -</div>
                                 <div className="col-6" style={{ textAlign: "right", color: "white", fontSize: "10px" }}>Settings</div>
                             </div>
-                            <button type="button" class="btn btn-outline-info w-100 mt-1" style={{ fontSize: "12px" }}>Log In or Sign Up</button>
+                            <button type="button" class="btn btn-outline-info w-100 mt-2" style={{ fontSize: "12px" }}>Log In or Sign Up</button>
                         </div>
                     </div>
                 </TabPanel>
@@ -224,7 +224,7 @@ export default function RightSideSwipableTabs() {
                                 <div className="col-6" style={{ fontSize: "10px", color: "white" }}>Advanced: -</div>
                                 <div className="col-6" style={{ textAlign: "right", color: "white", fontSize: "10px" }}>Settings</div>
                             </div>
-                            <button type="button" class="btn btn-outline-info w-100 mt-1" style={{ fontSize: "12px" }}>Log In or Sign Up</button>
+                            <button type="button" class="btn btn-outline-info w-100 mt-2" style={{ fontSize: "12px" }}>Log In or Sign Up</button>
                         </div>
                         <div className="col-6">
                             {/* <input type="text" placeholder="Limit" className="w-100 px-3" style={{background:"#272E40", border:'0', color:'white', height:"30px", borderRadius:'5px'}} /> */}
@@ -270,7 +270,7 @@ export default function RightSideSwipableTabs() {
                                 <div className="col-6" style={{ fontSize: "10px", color: "white" }}>Advanced: -</div>
                                 <div className="col-6" style={{ textAlign: "right", color: "white", fontSize: "10px" }}>Settings</div>
                             </div>
-                            <button type="button" class="btn btn-outline-info w-100 mt-1" style={{ fontSize: "12px" }}>Log In or Sign Up</button>
+                            <button type="button" class="btn btn-outline-info w-100 mt-2" style={{ fontSize: "12px" }}>Log In or Sign Up</button>
                         </div>
                     </div>
                 </TabPanel>

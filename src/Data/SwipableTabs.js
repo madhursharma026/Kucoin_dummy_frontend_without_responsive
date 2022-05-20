@@ -82,7 +82,7 @@ export default function SwipableTabs() {
                 axis={theme.direction === "rtl" ? "x-reverse" : "x"}
                 index={value}
                 onChangeIndex={handleChangeIndex}
-                style={{ background: '#151C30', height: "500px" }}
+                style={{ background: '#151C30', height: "auto" }}
             >
                 <TabPanel value={value} index={0} dir={theme.direction}>
                     <div className="row" style={{ marginTop: "-10px" }}>
