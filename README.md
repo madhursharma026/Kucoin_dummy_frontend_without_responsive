@@ -1,0 +1,1 @@
+# Kucoin_dummy_frontend_without_responsive
